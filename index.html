@@ -9,13 +9,14 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap"
     rel="stylesheet">
+  <script src="https://kit.fontawesome.com/36950a24e5.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/main.css">
   <title>BarberShop</title>
 </head>
 
 <body>
+  <!-- barra navegacion -->
   <header class="header">
-    <!-- meter navbar de bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#">
         <span class="logo">
@@ -36,26 +37,24 @@
         </div>
       </div>
     </nav>
-
-
   </header>
 
+  <!-- titulo articulo + foto -->
   <main class="main">
-
+    <!-- caja con foto de fondo -->
     <div class="main__container">
-
-      <h1 class="main__title" style="margin-top: 20vh;">5 formas de cuidar tu corte de cabello</h1>
-
-      <!-- <div class="main__button">
-        <button type="button" class="button button_positive">flechitas</button>
-      </div> -->
+      <!-- titulo articulo -->
+      <h1 class="main__title main__title-emphasis main__title-emphasis--size-xxl text-center m-auto">5 formas de cuidar
+        tu corte de cabello</h1>
     </div>
-
+    <!-- flechitas -->
+    <p class="text-center main__icon"><i class="fas fa-angle-double-down fa-2x text-white" aria-hidden="true"></i></p>
   </main>
 
-  <section class="">
+  <!-- articulo + botones-->
+  <article class="article">
     <!-- texto -->
-    <div>
+    <div class="article__p">
       <p>12 de abril de 2018</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc quam, eget scelerisque quam
         semper quis. Mauris maximus blandit lorem, sit amet condimentum eros auctor quis. In ut semper ipsum, nec
@@ -72,16 +71,21 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc quam, eget scelerisque quam
         semper quis. Mauris maximus blandit</p>
       <!-- botonera texto  -->
-      <div>
-        <button class="btn">Compartir</button>
-        <button class="btn">Comentar en Twitter</button>
+      <div class="article__buttons">
+        <button class="btn article__button">Compartir</button>
+        <button class="btn article__button">Comentar en Twitter</button>
       </div>
     </div>
-    <hr>
-    <!-- tarjeta -->
-    <div>
-      <!-- mantener en pantalla grande -->
-      <div>
+  </article>
+
+  <hr>
+
+  <!-- tarjeta presentacion -->
+  <section class="presentation container-fluid">
+    <!-- mantener en pantalla grande -->
+    <div class="row">
+
+      <div class="presentation__card">
         <img src="assets/img/naomi-thai.png" alt="">
         <h2>Naomi Thai</h2>
         <p>@Naothai</p>
@@ -89,57 +93,61 @@
       </div>
 
       <!-- esconder en pantalla grande -->
-      <div>
+      <div class="presentation__text">
         <p>Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper
           massa, eu pellentesque purus vehicula non. Praesent tincidunt convallis ipsum, quis convallis metus.</p>
       </div>
     </div>
   </section>
 
-  <!-- navegadorpaginas -->
+  <!-- navegador paginas -->
   <section class="pagination">
     <!-- pagination-->
-    <nav aria-label="..." class="">
-      <ul class="pagination my-auto mx-auto">
-        <li class="page-item disabled">
+    <nav class="pagination__container m-auto text-center" aria-label="...">
+      <ul class="pagination__list justify-content-center d-inline-flex">
+        <li class="pagination__item page-item disabled">
           <span class="page-link">Previous</span>
         </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item active">
-          <span class="page-link">
-            2
-            <span class="sr-only">(current)</span>
-          </span>
+        <li class="pagination__item  page-item">
+          <a class="page-link" href="#">1</a>
         </li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
+        <li class="pagination__item  page-item active">
+          <span class="page-link">2<span class="sr-only">(current)</span></span>
+        </li>
+        <li class="pagination__item  page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="pagination__item page-item">
           <a class="page-link" href="#">Next</a>
         </li>
       </ul>
     </nav>
+
+
+
   </section>
 
+  <!-- footer -->
   <footer class="footer">
     <!-- d-none en pantalla grande  -->
-    <div class="container">
-      <div class="row">
-
-        <!-- <div class="col ml-auto">
-          <img src="assets/img/logo.png" class="logo__image" alt="">
-          <img src="assets/img/logo.png" class="logo__image" alt="">
-          <img src="assets/img/logo.png" class="logo__image" alt="">
-        </div> -->
-        <!-- <div class="col mr-auto">
-          <img src="assets/img/logo.png" class="logo__image" alt="">
-          <img src="assets/img/logo.png" class="logo__image" alt="">
-          <img src="assets/img/logo.png" class="logo__image" alt="">
-        </div> -->
+    <div class="container py-5 d-sm-none d-md-none d-lg-none d-xl-none">
+      <div class="footer__row row">
+        <div class="footer__column col ml-auto text-right">
+          <img src="assets/img/logo.png" class="col footer__logo--xs" alt="">
+          <img src="assets/img/logo.png" class="col footer__logo--xs" alt="">
+          <img src="assets/img/logo.png" class="col footer__logo--xs" alt="">
+        </div>
+        <div class="footer__column col mr-auto">
+          <img src="assets/img/logo.png" class="col footer__logo--xs" alt="">
+          <img src="assets/img/logo.png" class="col footer__logo--xs" alt="">
+          <img src="assets/img/logo.png" class="col footer__logo--xs" alt="">
+        </div>
       </div>
     </div>
 
     <!-- d-none en pantalla pequeña -->
-    <div class="container text-center p-5">
-      <img src="assets/img/logo.png" class="logo__image-footer" alt="">
+    <div class="container p-5 text-center d-none d-sm-block">
+      <img src="assets/img/logo.png" class="footer__logo--xl" alt="">
     </div>
 
   </footer>

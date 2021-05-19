@@ -1,6 +1,19 @@
 footer {
-  background-color: $blackback;
+  background-color: $ererieb;
+  height: 16vh;
 }
-.logo__image-footer {
+.footer__logo--xs {
+  width: 2em;
+  padding: 0;
+  margin: 0;
+}
+.footer__logo--xl {
   height: 3em;
+}
+.footer__column {
+  max-width: 1.5em;
+  padding: 0;
+}
+.footer__row {
+  line-height: 0.8;
 }
