@@ -18,9 +18,31 @@
   <!-- barra navegacion -->
   <header class="header">
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand header__brand" href="#">
         <span class="logo">
-          <img src="assets/img/logo.png" class="logo__image" alt="">
+          <span>
+            <div class="d-none d-sm-block">
+              <img src="assets/img/logo.png" class="header__logoimage" alt="">
+            </div>
+          </span>
+          <!-- <img src="assets/img/logo.png" class="header__logoimage" alt=""> -->
+
+          <span class="d-sm-none d-md-none d-lg-none d-xl-none">
+
+            <div class="header__row row">
+              <span class="header__column col ml-auto text-right">
+                <img src="assets/img/logo.png" class="col header__logo--xs" alt=""><br class="header__br">
+                <img src="assets/img/logo.png" class="col header__logo--xs" alt=""><br class="header__br">
+                <img src="assets/img/logo.png" class="col header__logo--xs" alt="">
+              </span>
+              <span class="header__column col mr-auto">
+                <img src="assets/img/logo.png" class="col header__logo--xs" alt=""><br class="header__br">
+                <img src="assets/img/logo.png" class="col header__logo--xs" alt=""><br class="header__br">
+                <img src="assets/img/logo.png" class="col header__logo--xs" alt="">
+              </span>
+            </div>
+          </span>
+
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -95,7 +117,7 @@
     <div class="row">
 
       <div class="col presentation__card">
-        <img src="assets/img/naomi-thai.png" alt="">
+        <img class="presentation__image" src="assets/img/naomi-thai.png" alt="">
         <h2>Naomi Thai</h2>
         <p>@Naothai</p>
         <p>depelos.com</p>

@@ -1,7 +1,27 @@
 /* Header Layout */
 .header {
   background-color: $ererieb;
-}
-.logo__image {
-  width: 120px;
+  // height: 100px;
+  &__row {
+    padding-left: 1em;
+  }
+  &__logoimage {
+    width: 46px;
+  }
+  &__logo--xs {
+    vertical-align: 0%;
+    padding: 0;
+  }
+  &__column {
+    max-width: 1em;
+    padding: 0;
+    margin: 0;
+  }
+  &__br {
+    font-size: 1em;
+    line-height: 0;
+  }
+  &__brand {
+    line-height: 0;
+  }
 }

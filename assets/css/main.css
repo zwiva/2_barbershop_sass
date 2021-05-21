@@ -9656,14 +9656,35 @@ h6 {
 .header {
   background-color: #121619;
 }
-
-.logo__image {
-  width: 120px;
+.header__row {
+  padding-left: 1em;
+}
+.header__logoimage {
+  width: 46px;
+}
+.header__logo--xs {
+  vertical-align: 0%;
+  padding: 0;
+}
+.header__column {
+  max-width: 1em;
+  padding: 0;
+  margin: 0;
+}
+.header__br {
+  font-size: 1em;
+  line-height: 0;
+}
+.header__brand {
+  line-height: 0;
 }
 
 .article__p {
   color: #6C6E70;
   line-height: 2.5;
+}
+.article__button {
+  font-size: 0.75em;
 }
 
 @media (max-width: 760px) {
@@ -9678,10 +9699,6 @@ h6 {
     margin-left: auto;
   }
 }
-.article__button {
-  font-size: 0.75em;
-}
-
 main {
   position: relative;
   height: 80vh;
@@ -9720,6 +9737,10 @@ main {
 
 .main__icon {
   margin-top: -50px;
+}
+
+.presentation__image {
+  border-radius: 50%;
 }
 
 .pagination {
