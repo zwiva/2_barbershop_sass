@@ -2,11 +2,18 @@
 .header {
   background-color: $ererieb;
   // height: 100px;
+  &__link {
+    font-size: $p-small;
+    color: $white;
+  }
+  &__link--active {
+    color: $fuzzy;
+  }
   &__row {
     padding-left: 1em;
   }
   &__logoimage {
-    width: 46px;
+    width: 8vh;
   }
   &__logo--xs {
     vertical-align: 0%;

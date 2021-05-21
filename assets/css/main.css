@@ -9656,11 +9656,18 @@ h6 {
 .header {
   background-color: #121619;
 }
+.header__link {
+  font-size: 0.75em;
+  color: #fff;
+}
+.header__link--active {
+  color: #e56353;
+}
 .header__row {
   padding-left: 1em;
 }
 .header__logoimage {
-  width: 46px;
+  width: 8vh;
 }
 .header__logo--xs {
   vertical-align: 0%;
