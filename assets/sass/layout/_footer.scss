@@ -1,19 +1,19 @@
-footer {
+.footer {
   background-color: $ererieb;
-  height: 16vh;
-}
-.footer__logo--xs {
-  width: 2em;
-  padding: 0;
-  margin: 0;
-}
-.footer__logo--xl {
-  height: 3em;
-}
-.footer__column {
-  max-width: 1.5em;
-  padding: 0;
-}
-.footer__row {
-  line-height: 0.8;
+  
+  &__logo--xs {
+    width: 2em;
+    padding: 0;
+    margin: 0;
+  }
+  &__logo--xl {
+    height: 3em;
+  }
+  &__column {
+    max-width: 1.5em;
+    padding: 0;
+  }
+  &__row {
+    line-height: 0.8;
+  }
 }

@@ -1,6 +1,6 @@
 .pagination {
-  background-color: $ligthgray;
-  height: 12vh;
+  background-color: $platinum;
+  height: 20vh;
 }
 .pagination__container {
 }
@@ -11,4 +11,21 @@
 }
 .pagination__item {
 
+}
+.pagination__button-right {
+  border-bottom-right-radius: 1.25rem !important; //sorry
+  border-top-right-radius: 1.25rem !important; 
+  color: $raisin;
+}
+.pagination__button-left {
+  border-bottom-left-radius: 1.25rem !important; 
+  border-top-left-radius: 1.25rem !important; 
+}
+.pagination__link {
+  color: $raisin;
+}
+.pagination__link-active {
+  background-color: $nickel !important;
+  border-color: $nickel !important;
+  color: $white;
 }

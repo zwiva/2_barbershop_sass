@@ -1,9 +1,24 @@
-.article {
-
+article {
 }
 .article__p {
-
+  color: $nickel;
+  line-height: 2.5;
 }
-.article__buttons {
-  
+
+@media (max-width: 760px) {
+  .article__buttons {
+    justify-content: center; 
+  }
+}
+@media (max-width: 600px) {
+  .article__p {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+}
+
+.article__button {
+  font-size: $p-small;
 }
