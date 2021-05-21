@@ -1,25 +1,21 @@
 .presentation {
   &__image {
     border-radius: 50%;
+    max-height: 180px;
   }
-}
-.presentation__card {
-}
-.presentation__image {
-  max-height: 180px;
-}
-.presentation__text--intense {
-  color: $ruddy; 
-  margin-bottom: 0;
-}
-.presentation__text--complementary {
- color: $nickel;
- font-size: $p-small;
- line-height: 2;
-}
-.presentation__title {
-  font-family: $playfair;
-  font-size: $x-large;
-  font-weight: $bold-typo;
-  font-style: italic;
+  &__text--intense {
+    color: $ruddy; 
+    margin-bottom: 0;
+  }
+  &__text--complementary {
+    color: $nickel;
+    font-size: $p-small;
+    line-height: 2;
+  }
+  &__title {
+    font-family: $playfair;
+    font-size: $x-large;
+    font-weight: $bold-typo;
+    font-style: italic;
+  }
 }
