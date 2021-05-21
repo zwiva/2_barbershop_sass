@@ -9661,7 +9661,7 @@ h6 {
   color: #fff;
 }
 .header__link--active {
-  color: #e56353;
+  color: #e56353 !important;
 }
 .header__row {
   padding-left: 1em;

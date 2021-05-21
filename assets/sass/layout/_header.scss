@@ -7,7 +7,7 @@
     color: $white;
   }
   &__link--active {
-    color: $fuzzy;
+    color: $fuzzy !important;
   }
   &__row {
     padding-left: 1em;
