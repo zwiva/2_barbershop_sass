@@ -5,5 +5,21 @@
 }
 .presentation__card {
 }
-.presentation__text {
+.presentation__image {
+  max-height: 180px;
+}
+.presentation__text--intense {
+  color: $ruddy; 
+  margin-bottom: 0;
+}
+.presentation__text--complementary {
+ color: $nickel;
+ font-size: $p-small;
+ line-height: 2;
+}
+.presentation__title {
+  font-family: $playfair;
+  font-size: $x-large;
+  font-weight: $bold-typo;
+  font-style: italic;
 }

@@ -9728,7 +9728,7 @@ main {
 .main__title-emphasis {
   font-family: "Playfair Display", serif;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 @media (min-width: 761px) {
@@ -9748,6 +9748,28 @@ main {
 
 .presentation__image {
   border-radius: 50%;
+}
+
+.presentation__image {
+  max-height: 180px;
+}
+
+.presentation__text--intense {
+  color: #d76c69;
+  margin-bottom: 0;
+}
+
+.presentation__text--complementary {
+  color: #6C6E70;
+  font-size: 0.75em;
+  line-height: 2;
+}
+
+.presentation__title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.875em;
+  font-weight: 800;
+  font-style: italic;
 }
 
 .pagination {
