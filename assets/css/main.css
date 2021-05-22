@@ -9693,6 +9693,12 @@ h6 {
 .article__button {
   font-size: 0.75em;
 }
+.article__p--date {
+  font-family: "Playfair Display", serif;
+}
+.article__p--emphasis {
+  color: #d76c69;
+}
 
 @media (max-width: 760px) {
   .article__buttons {

@@ -6,6 +6,12 @@
   &__button {
     font-size: $p-small;
   }
+  &__p--date {
+    font-family: $playfair;
+  }
+  &__p--emphasis {
+    color: $ruddy;
+  }
 }
 
 @media (max-width: 760px) {
