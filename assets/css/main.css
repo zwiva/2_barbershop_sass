@@ -9825,5 +9825,10 @@ h6 {
   background-color: #6C6E70;
   border-radius: 25px;
 }
+.article__button:hover {
+  background-color: #fff;
+  border-color: #6C6E70;
+  color: #6C6E70 !important;
+}
 
 /*# sourceMappingURL=main.css.map */

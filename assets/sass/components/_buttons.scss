@@ -5,11 +5,6 @@
   font-family: $roboto;
   font-size: $p-small;
   color: $white;
-  // &:hover {
-  //   // background-color: $salmon;
-  //   // border-color: $salmon;
-  //   // color: $black-olive;
-  // }
 }
 // .button_default {
 //   // background-color: $carmine-pink;
@@ -30,5 +25,10 @@
 
 .article__button {
   background-color: $nickel;
-  border-radius: 25px;
+  border-radius: 25px;  
+  &:hover {
+    background-color: $white;
+    border-color: $nickel;
+    color: $nickel !important;
+  }
 }
